@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>garden template</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .container {
+        margin: 0 auto;
+        padding: 24px 98px 24px 98px;
+      }
+      /*GLOBAL*/
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .hero {
+        height: 100%;
+        width: 100%;
+        background-image: url("hero_img.svg");
+      }
+
+      .header {
+        display: flex;
+        /* padding: 24px 98px 24px 98px; */
+        justify-content: space-between;
+        /* border-bottom: solid 1px #fff; */
+        align-items: center;
+      }
+
+      .auth {
+        display: flex;
+        width: 337;
+        height: 56;
+        gap: 32px;
+      }
+
+      .auth .login-btn {
+        background-color: #28a57e;
+        color: #fff; /* Adjust to your specific green */
+        border: none;
+        padding: 16px 40px;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+      }
+      .auth .signup-btn {
+        background-color: #fff;
+        color: #28a57e; /* Adjust to your specific green */
+        border: none;
+        padding: 16px 40px;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: space-between;
+        width: 365px;
+        height: 24px;
+      }
+      .navigation a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+      }
+      .logo{
+        font-size: 38px;
+        font-weight: 600px;
+        color: #fff;
+      }
+
+      .hero-disc{
+        display: grid;
+        top: 184px;
+        left: 189px;
+        gap: 24px;
+        text-align: center;
+      }
+      .hero-title{
+        font-size: 138px;
+        font-weight: 700;
+        color: #fff;
+      }
+      .hero-disc p {
+        color: #fff;
+        font-size: 14px;
+        width: 731px;
+        height: 48px;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <!--hero -->
+    <div class="hero container">
+      <!--Header -->
+      <div class="header">
+        <div class="logo">EcoSculpt</div>
+        <div class="navigation">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Pages</a>
+        </div>
+        <div class="auth">
+          <button class="login-btn">Login</button>
+          <button class="signup-btn">Sign up</button>
+        </div>
+      </div>
+      <!-- Sub Hero -->
+      <div class="sub-hero">
+        <div class="hero-disc">
+          <div class="hero-title">Gardens of Distinction</div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut sapien
+            et ex volutpat tincidunt eget at felis.
+          </p>
+        </div>
+
+        <div class="hero-info">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span>87<span>+</span></span>
+        </div>
+      </div>
+    </div>
+    <!-- Mission -->
+    <!-- Choose Us -->
+    <!-- Landscaping -->
+    <!-- Pricing -->
+    <!-- Gallery -->
+    <!-- About EcoSculpt -->
+    <!-- Questions -->
+    <!-- Articles -->
+    <!-- Contact Us -->
+    <!-- Footer -->
+  </body>
+</html>
